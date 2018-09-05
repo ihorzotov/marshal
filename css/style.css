@@ -732,6 +732,7 @@ img {
 
 .main-title__text p {
   width: 100%;
+  position:relative;
 }
 
 .cooperation {
