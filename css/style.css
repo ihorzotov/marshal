@@ -1129,10 +1129,6 @@ img {
   display: none !important;
 }
 
-.main.tariff .tariff-content.right {
-  padding-left: 15px;
-}
-
 .main.tariff .tariff-content.right .rates-block__top h3:before {
   left: -72%;
 }
@@ -1362,7 +1358,8 @@ img {
 
 .main.tariff .tariff-content .rates-block__top {
   position: relative;
-  padding-bottom: 0;
+  left:auto;
+  bottom:auto;
 }
 
 .main.tariff .tariff-content .rates-block__top::before {
