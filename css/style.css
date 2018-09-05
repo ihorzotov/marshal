@@ -1362,6 +1362,8 @@ img {
 
 .main.tariff .tariff-content .rates-block__top {
   position: relative;
+  left:auto;
+  bottom:auto;
 }
 
 .main.tariff .tariff-content .rates-block__top::before {
