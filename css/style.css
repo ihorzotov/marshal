@@ -730,6 +730,10 @@ img {
   height: calc(100% + 80px);
 }
 
+.main-title__text p {
+  width: 100%;
+}
+
 .cooperation {
   text-align: center;
   background-repeat: no-repeat;
@@ -985,7 +989,7 @@ img {
 }
 
 .main.contacts .main-title__text {
-  width: auto;
+  width: 100%;
   margin-right: 0;
   font-size: 24px;
   font-weight: 500;
@@ -1127,10 +1131,6 @@ img {
 
 .main.tariff .tariff-content .tablet-btn {
   display: none !important;
-}
-
-.main.tariff .tariff-content.right {
-  padding-left: 15px;
 }
 
 .main.tariff .tariff-content.right .rates-block__top h3:before {
@@ -1362,7 +1362,8 @@ img {
 
 .main.tariff .tariff-content .rates-block__top {
   position: relative;
-  padding-bottom: 0;
+  left: auto;
+  bottom: auto;
 }
 
 .main.tariff .tariff-content .rates-block__top::before {
@@ -1396,6 +1397,7 @@ img {
 
 .main.tariff .rates-description {
   font-size: 0;
+  width: 100%;
 }
 
 .main.tariff .rates-description h3 {
