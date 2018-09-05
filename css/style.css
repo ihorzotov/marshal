@@ -872,6 +872,7 @@ img {
   position: absolute;
   left: 0;
   width: 100%;
+  clear: both;
 }
 
 .rates-block__top::before {
