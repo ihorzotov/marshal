@@ -1242,6 +1242,8 @@ img {
 
 .main.tariff .tariff-content .price-block__content {
   margin-bottom: 40px;
+  position:relative;
+  z-index:99;
 }
 
 .main.tariff .tariff-content .price-block__content span + span {
