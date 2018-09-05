@@ -1129,10 +1129,6 @@ img {
   display: none !important;
 }
 
-.main.tariff .tariff-content.right {
-  padding-left: 15px;
-}
-
 .main.tariff .tariff-content.right .rates-block__top h3:before {
   left: -72%;
 }
