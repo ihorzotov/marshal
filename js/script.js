@@ -8,6 +8,16 @@ $(document).ready(function(){
     });
   });
 });
+$(document).ready(function($) {
+var holder = $(".input-holder input,textarea")
+ holder.focus(function(){
+   $(this).parent().addClass("active");
+
+  }).blur(function(){
+       $(this).parent().removeClass("active");
+  })
+});  
+
 
 $(function(){
   $(window).scroll(function(){
@@ -20,16 +30,6 @@ $(function(){
     }
   });
 });
-
-$(document).ready(function($) {
-var holder = $(".input-holder input,textarea")
- holder.focus(function(){
-   $(this).parent().addClass("active");
-
-  }).blur(function(){
-       $(this).parent().removeClass("active");
-  })
-});  
 
 
 var tariffSpoiler = $('.spoiler-button span');
