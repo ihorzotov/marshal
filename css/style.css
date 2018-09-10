@@ -2122,7 +2122,7 @@ img {
     width: 20%;
   }
   .footer-content .footer-list.copy {
-    display: none;
+    display: none!important;
   }
   .footer-content .footer-list:nth-child(3) {
     width: 28%;
